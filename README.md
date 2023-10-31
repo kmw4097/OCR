@@ -57,7 +57,7 @@ Download csv file and check your iam account and password
 
   ```
   aws configure
-  # to manage profile
+  # Register with profile name
   aws configure --profile [ProfileName]
 
   # enter your Access key, secret key
@@ -67,10 +67,16 @@ Download csv file and check your iam account and password
   Default output format [None]: text
 
   # check Access key ID, AWS Secret Access Key registered
+  aws configure list
   ```
 
-*Select profile
-   ```setx AWS_PROFILE [ProfileName]```
+* Select profile
+  
+  ```
+  setx AWS_PROFILE [ProfileName]
+  # set default profile
+  set AWS_DEFAULT_PROFILE=[ProfileName]
+  ```
    
    
 
