@@ -23,5 +23,5 @@ The root user is the account owner and is created when the AWS account is create
 ![image](https://github.com/kmw4097/OCR/assets/98750892/c9fd5859-9dc6-4900-a584-dc26c5dff476)
 
 3. Make IAM account
-![aws](https://github.com/kmw4097/OCR/assets/98750892/1562f213-74dd-48f2-8115-da0b8cf53555)
+![image](https://github.com/kmw4097/OCR/assets/98750892/e679bee9-1b78-4cf7-9abb-2208f6af79de)
 
