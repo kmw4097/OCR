@@ -44,4 +44,7 @@ Download csv file and check your iam account and password
 
 ![aws_3](https://github.com/kmw4097/OCR/assets/98750892/4b402c4a-7a0b-4d0d-9d51-203b51162ea6)
 
+5. Install aws cli
+   
+
 
