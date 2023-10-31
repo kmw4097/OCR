@@ -40,4 +40,8 @@ Download csv file and check your iam account and password
 
 ![aws_2](https://github.com/kmw4097/OCR/assets/98750892/feeb40b2-8126-4364-834d-9ffc1b34adf8)
 
+4. Make IAM account access key
+
+![aws_3](https://github.com/kmw4097/OCR/assets/98750892/4b402c4a-7a0b-4d0d-9d51-203b51162ea6)
+
 
