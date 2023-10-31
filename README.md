@@ -14,7 +14,7 @@ The root user is the account owner and is created when the AWS account is create
 
   An IAM user is an entity you create in AWS that represents the person or service that uses the IAM user to interact with AWS resources. These users are identities within your AWS account that have specific custom permissions. For example, you can create IAM users and give them permissions to create a directory in IAM Identity Center. IAM users have long-term credentials that they can use to access AWS using the AWS Management Console, or programmatically using the AWS CLI or AWS APIs
 
-## Steps to use AWS TTS service in Python
+## Steps to use AWS TTS service in Python(Windows)
 
 1. Make root user account: [AWS link](https://aws.amazon.com/ko/)
 
@@ -46,22 +46,27 @@ Download csv file and check your iam account and password
 
 5. Setting aws cli in Local environment
 
-* Install
-  ```pip install awscli```
-* check Installation
-  ```aws```
-* Register your IAM user
-  ```
-  aws configure
-  # to manage profile
-  aws configure --profile [ProfileName]
-
-  # enter your Access key, secret key
-  AWS Access Key ID [None]:
-  AWS Secret Access Key [None]: 
-  Default region name [None]: ap-northeast-1
-  Default output format [None]: text
-  ```
+  1. Install
+    ```pip install awscli```
+  2. check Installation
+    ```aws```
+  3. Register your IAM user
+    ```
+    aws configure
+    # to manage profile
+    aws configure --profile [ProfileName]
+  
+    # enter your Access key, secret key
+    AWS Access Key ID [None]:
+    AWS Secret Access Key [None]: 
+    Default region name [None]: ap-northeast-1
+    Default output format [None]: text
+  
+    # check Access key ID, AWS Secret Access Key registered
+    ```
+  4. Select profile
+     ```setx AWS_PROFILE [ProfileName]```
+   
    
 
 
