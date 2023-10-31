@@ -3,9 +3,11 @@
 # AWS TTS service
 AWS has 2 different types account
 
+The root user is the account owner and is created when the AWS account is created. Other types of users, including IAM users, and AWS IAM Identity Center users are created by the root user or an administrator for the account. All AWS users have security credentials.
+
 * ROOT
 
-  The ROOT user is the account owner and is created when the AWS account is created.Other types of users, including IAM users, and AWS IAM Identity Center users are created by the root user or an administrator for  the account. All AWS users have security credentials.
+  The credentials of the account owner allow full access to all resources in the account. You can't use IAM policies to explicitly deny the root user access to resources. You can only use an AWS Organizations service control policy (SCP) to limit the permissions of the root user of a member account. Because of this, we recommend that you create an administrative user in IAM Identity Center to use for everyday AWS tasks. Then, safeguard the root user credentials and use them to perform only those few account and service management tasks that require you to sign in as the root user. For the list of those tasks, see Tasks that require root user credentials.
 
 * IAM
 
