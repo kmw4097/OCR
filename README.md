@@ -44,9 +44,24 @@ Download csv file and check your iam account and password
 
 ![aws_3](https://github.com/kmw4097/OCR/assets/98750892/4b402c4a-7a0b-4d0d-9d51-203b51162ea6)
 
-5. Install aws cli
+5. Setting aws cli in Local environment
 
-   ```pip install awscli```
+* Install
+  ```pip install awscli```
+* check Installation
+  ```aws```
+* Register your IAM user
+  ```
+  aws configure
+  # to manage profile
+  aws configure --profile [ProfileName]
+
+  # enter your Access key, secret key
+  AWS Access Key ID [None]:
+  AWS Secret Access Key [None]: 
+  Default region name [None]: ap-northeast-1
+  Default output format [None]: text
+  ```
    
 
 
