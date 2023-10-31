@@ -74,9 +74,10 @@ Download csv file and check your iam account and password
   
   ```
   setx AWS_PROFILE [ProfileName]
-  # set default profile
+  # setting default profile
   set AWS_DEFAULT_PROFILE=[ProfileName]
   ```
+  You can check your profile information in .aws/config and .aws/credentials
    
    
 
