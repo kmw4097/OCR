@@ -32,4 +32,9 @@ The root user is the account owner and is created when the AWS account is create
 
 ![image](https://github.com/kmw4097/OCR/assets/98750892/e94bdb30-263d-41ee-a887-4b5ce881af20)
 
+Authorize AdministratorAccess
+
+![image](https://github.com/kmw4097/OCR/assets/98750892/b14efd2c-c156-45d0-a946-e385734c5972)
+
+
 
