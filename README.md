@@ -2,6 +2,7 @@
 
 # AWS TTS service
 AWS has 2 different types account(ROOT, IAM)
+
 The ROOT user is the account owner and is created when the AWS account is created.Other types of users, including IAM users, and AWS IAM Identity Center users are created by the root user or an administrator for the account. All AWS users have security credentials.
 1. Make root user account: [AWS link](https://aws.amazon.com/ko/)
 
