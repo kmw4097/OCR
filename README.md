@@ -47,10 +47,14 @@ Download csv file and check your iam account and password
 5. Setting aws cli in Local environment
 
 * Install
+
   ```pip install awscli```
+  
 * check Installation
+
   ```aws```
 * Register your IAM user
+
   ```
   aws configure
   # to manage profile
@@ -64,6 +68,7 @@ Download csv file and check your iam account and password
 
   # check Access key ID, AWS Secret Access Key registered
   ```
+
 *Select profile
    ```setx AWS_PROFILE [ProfileName]```
    
