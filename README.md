@@ -77,7 +77,7 @@ Download csv file and check your iam account and password
   # setting default profile
   set AWS_DEFAULT_PROFILE=[ProfileName]
   ```
-  You can check your profile information in .aws/config and .aws/credentials
+  You can check your profile information in .aws/config and .aws/credentials</br>
   Insert your profile name in OCR_MODEL/TTS/tts.py line 97
   ```session = Session(profile_name=[your ProfileName])```
    
