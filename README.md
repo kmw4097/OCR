@@ -36,4 +36,6 @@ Authorize AdministratorAccess
 
 ![image](https://github.com/kmw4097/OCR/assets/98750892/b14efd2c-c156-45d0-a946-e385734c5972)
 
+![aws_2](https://github.com/kmw4097/OCR/assets/98750892/feeb40b2-8126-4364-834d-9ffc1b34adf8)
+
 
