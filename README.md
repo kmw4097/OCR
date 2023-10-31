@@ -46,7 +46,7 @@ Download csv file and check your iam account and password
 
 5. Install aws cli
 
-   '''pip install awscli'''
+   ```pip install awscli```
    
 
 
